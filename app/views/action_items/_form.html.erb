@@ -1,0 +1,24 @@
+<div>
+  Due: <%= f.text_field :due %>
+</div>
+<div>
+  Assignee: <%= f.text_field :assignee %>
+</div>
+<div>
+  Team Lead: <%= f.text_field :team_lead %>
+</div>
+<div>
+  State: <%= f.select :state, ['Open', 'Team Lead Review', 'QA Review', 'Closed'] %>
+</div>
+<div>
+  Configuration Item: <%= f.text_field :ci %>
+</div>
+<div>
+  Priority: <%= f.text_field :priority %>
+</div>
+<div>
+  Description: <%= f.text_area :description %>
+</div>
+<div>
+  Closure Criteria: <%= f.text_area :closure_criteria %>
+</div>
